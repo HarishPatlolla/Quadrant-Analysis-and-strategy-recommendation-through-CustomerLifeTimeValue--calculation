@@ -48,7 +48,7 @@
         version of the formula takes rate of discount into consideration and provides a more detailed understanding of how CLV can 
         change over the years.The detailed CLV equation breaks down the individual costs and profits of each year.
 
-        CLV= Gross margin * (Retention rate / [1+ Rate of discount – Retention rate]
+        CLV= (Gross margin * Retention rate) / [1+ Rate of discount]
         
         This traditional method allows for fluctuations in customer revenue over time and each year is adjusted by a rate of discount to 
         account for inflation. A discount rate of 10% is commonly used by SaaS companies.

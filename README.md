@@ -26,15 +26,31 @@
     There are several different ways to calculate CLV, including the simple and traditional formulas that we’ll look at today.
     CLV can also be historic or predictive depending on the data used.
         
-            Historic CLV is the sum of all profits from a customer’s past purchases. This number is based on existing customer data 
+           1. Historic CLV is the sum of all profits from a customer’s past purchases. This number is based on existing customer data 
             from a specific period of time.
             
-            Predictive CLV allows you to project how much revenue a customer will generate for your business over the course of the     
+           2. Predictive CLV allows you to project how much revenue a customer will generate for your business over the course of the   
             customer relationship. This is considered a more complete method of assessing CLV.The predictive model uses transaction 
             history and behavioral patterns to determine the current value of a customer and to forecast how customer value will 
             evolve with time. As you collect more data to include in this calculation, the value will become increasingly accurate.
             
             The second method has been used for this project
-    
+ 
+ ### Formula
+        
+        The simple approach can be used if a customer’s annual profit contribution remains somewhat consistent.
+        The most basic way to determine CLV is to add up the revenue earned from a customer (annual revenue multiplied by the average 
+        customer lifespan) minus the initial cost of acquiring them.
+
+        CLV=(Annual revenue per customer * Customer relationship in years) – Customer acquisition cost
+        
+        If annual sales /profit margin per customer are not relatively flat, a more in-depth CLV equation is needed. This traditional   
+        version of the formula takes rate of discount into consideration and provides a more detailed understanding of how CLV can 
+        change over the years.The detailed CLV equation breaks down the individual costs and profits of each year.
+
+        CLV= Gross margin * (Retention rate / [1+ Rate of discount – Retention rate]
+        
+        This traditional method allows for fluctuations in customer revenue over time and each year is adjusted by a rate of discount to 
+        account for inflation. A discount rate of 10% is commonly used by SaaS companies.
     
     https://www.propellercrm.com/blog/customer-lifetime-value-clv

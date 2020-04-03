@@ -1,4 +1,4 @@
-# Defintion of Customer Life Time Value & Why do we need to look at CLV
+### Defintion of Customer Life Time Value & Why do we need to look at CLV
     
      Customer lifetime value (CLV) is the amount of value a customer contributes to your business over their lifetime –  
      which starts with a new customer’s first purchase or contract and ends with the “moment of churn.”

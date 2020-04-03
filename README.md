@@ -52,5 +52,11 @@
         
         This traditional method allows for fluctuations in customer revenue over time and each year is adjusted by a rate of discount to 
         account for inflation. A discount rate of 10% is commonly used by SaaS companies.
+        
+        ### We are using a simplified CLV formula
+
+                *  are predicting only annual numbers,
+                *  are assuming that next year's annual prediction are the same values for the next 3 years
+                *  that our future value is adequately estimated using only 3 future years
     
     https://www.propellercrm.com/blog/customer-lifetime-value-clv
